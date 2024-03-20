@@ -22,6 +22,5 @@ $user_pass="your_password_here";
 $database_in_use="name_of_your_database";
 7.Open a web browser and navigate to the local adress of your server to access the website.
 
-##Usage
 
 Now that the website is up and running, you can mess around and enjoy the features the website provide. 
