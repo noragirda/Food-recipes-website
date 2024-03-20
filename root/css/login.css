@@ -1,0 +1,68 @@
+/* Add these styles for proper form layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.login-form,
+.signup-form {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.login-form h3,
+.signup-form h3 {
+    color: #000;
+    font-size: 1.7em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form input,
+.signup-form input {
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 8px 15px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.login-form button,
+.signup-form button {
+    background-color: #ee925a;
+    color: rgba(256, 256, 256, 0.7);
+    border: 0;
+    border-radius: 15px;
+    display: block;
+    margin: 15px auto;
+    padding: 15px 45px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease;
+}
+
+/* Adjust form spacing on smaller screens if needed */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .login-form,
+    .signup-form {
+        width: 100%;
+    }
+}
